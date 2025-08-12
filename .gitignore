@@ -19,6 +19,7 @@ Thumbs.db
 *.env
 
 # Ignore all directories
+**/
 */
 
 # But keep certain directories

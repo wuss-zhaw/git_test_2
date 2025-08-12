@@ -18,9 +18,12 @@ Thumbs.db
 # Ignore environment variables files
 *.env
 
-# Ignore all directories
-**/
-*/
-
-# But keep certain directories
+# If you want to ignore all folders EXCEPT one:
+# First ignore everything
+/*
+# Then allow the .gitignore itself (important)
+!.gitignore
+# Then allow your special folder
 !dontignorethisone/
+# Allow files inside that folder
+!dontignorethisone/**
